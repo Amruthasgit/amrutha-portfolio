@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Amrutha Pemmasani</title>
+    <meta name="description" content="Welcome to Amrutha's portfolio website. Explore the work of a Full stack Developer, showcasing projects, skills, and experience in AI, internships, and more.">
+    <meta name="keywords" content="Amrutha Pemmasani, Full Stack Developer, Portfolio website, Full Stack projects, Machine Learning, Deep Learning, Data Science, AI Engineer, Tech Intern">
+    <link rel="icon" type="image/jpeg" href="Logo_B.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+    <body>
+        <!--body-->
+        <header class="header">
+            <a href="#" class="logo">Amrutha Pemmasani</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Skills</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+        </header>
+            <section class="home" id="home" style="background-image: url('home_img.jpg'); background-size: cover; background-position: center;">
+                <div class="home-content">
+                    <h3>Hello,It's Me</h3>  
+                    <h1>Amrutha Pemmasani</h1>
+                    <h3><span class="multiple-text"></span></h3>
+                    <div class="social-media">
+                        <a href="https://github.com/Amruthasgit" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="mailto:amrutha.pemmasani@utdallas.edu" target="_blank"><i class='bx bxs-envelope'></i></a>
+                        <a href="https://www.linkedin.com/in/amrutha-pemmasani/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                    </div>                    
+                    <div class="buttons">
+                        <a href="amrutha_resume.pdf" class="btn" target="_blank" download="Amrutha_Pemmasani_Resume">Download Resume</a>
+                    </div>                                           
+                </div>
+                <div class="home-img">
+                    <!-- <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/10/computer_engineer-compare-page.jpg" alt=""> -->
+                </div>
+            </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="amrutha_picture.jpeg" alt="">
+            </div>
+            
+            <style>
+                .about-content {
+                    color: white;
+                }
+            </style>
+
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3></h3>
+                <p>
+                    Hi, I’m <b>Amrutha</b>—a <b>Master’s student</b> in <b>Information Technology and Management</b> at <b>UT Dallas</b>, where I combine <b>technology</b> and <b>strategy</b> to build impactful solutions. My expertise covers <b>full stack development</b>, with proficiency in <b>frontend and backend technologies</b>, <b>cloud computing</b>, and <b>database management</b>. From <b>crafting responsive web applications</b> and <b>developing seamless user experiences</b> to <b>designing scalable system architectures</b>, I enjoy tackling complex challenges with a blend of <b>creativity</b> and <b>technical precision</b>.
+                </p>
+                <p>
+                    I specialize in <b>turning raw data into actionable insights</b> and have worked across <b>MLOps</b>, <b>LLM applications</b>, and <b>real-time analytics</b>. 
+                    With a strong foundation in <b>Python</b>, <b>SQL</b>, and <b>cloud platforms</b>, I don’t just analyze data—I engineer solutions that make an impact.
+                </p>
+                <p>
+                    Outside of work, you’ll find me <b>exploring ideas over a great cup of coffee</b>, always curious about the next breakthrough in <b>AI</b> or how to push the 
+                    boundaries of <b>what’s possible with technology</b>. Whether it’s <b>fine-tuning a language model</b> or <b>refining a data pipeline</b>, I believe in 
+                    <b>continuous learning</b>, <b>innovation</b>, and <b>making technology work smarter</b>.
+                </p>
+           
+            </div>
+        </section>
+        <style>
+            body {
+                background-color: var(--bg-color);
+                color: var(--text-color);
+                font-family: 'Poppins', sans-serif;
+            }
+            .header {
+                background-color: var(--second-bg-color);
+                padding: 2rem 9%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: sticky;
+                top: 0;
+                z-index: 100;
+            }
+            .header .logo {
+                color: var(--text-color);
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .header .navbar a {
+                color: var(--text-color);
+                margin-left: 2rem;
+                text-decoration: none;
+                font-size: 1.5rem;
+            }
+            .header .navbar a.active {
+                color: var(--main-color);
+            }
+            .experience-section {
+                padding: 4rem 9%;
+            }
+            .experience-heading {
+                font-size: 3rem;
+                text-align: center;
+                margin-bottom: 2rem;
+                color: var(--main-color);
+            }
+            .experience-container {
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+            }
+            .experience-item {
+                display: flex;
+                align-items: flex-start;
+                gap: 2rem;
+                background: var(--second-bg-color);
+                padding: 2rem;
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+            }
+            .experience-logo img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            .experience-content {
+                flex-grow: 1;
+            }
+            .experience-title {
+                font-size: 2rem;
+                font-weight: bold;
+                color: var(--main-color);
+            }
+            .experience-subtitle {
+                font-size: 1.6rem;
+                font-weight: bold;
+                color: var(--text-color);
+                margin-top: 0.5rem;
+            }
+            .experience-duration {
+                font-size: 1.4rem;
+                margin-top: 0.5rem;
+                color: rgba(255, 255, 255, 0.7);
+            }
+            .experience-description {
+                font-size: 1.4rem;
+                margin-top: 1rem;
+                line-height: 1.6;
+                color: rgba(255, 255, 255, 0.8);
+            }
+            .experience-description li {
+                margin-bottom: 0.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo">Amrutha Pemmasani</a>
+            <nav class="navbar">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#services">Skills</a>
+                <a href="projects.html">Portfolio</a>
+                <a href="#" class="active">Experience</a>
+            </nav>
+        </header>
+    
+        <section class="experience-section">
+            <h2 class="experience-heading">Experience</h2>
+            <div class="experience-container">
+                <!-- Temenos -->
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="hcl_logo.png" alt="Temenos Logo" class="full-logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">HCL Technologies, Chennai, India</h3>
+                        <p class="experience-subtitle">Software Engineer</p>
+                        <p class="experience-duration">Mar 2023 - Nov 2023</p>
+                        <ul class="experience-description">
+                            <li>Developed and maintained <b>web-based banking applications</b> using <b>Angular</b>, <b>HTML</b>, and <b>CSS</b> to enhance customer experience and improve application accessibility.</li>
+                            <li>Integrated <b>RESTful APIs</b> and optimized <b>SQL queries</b> for efficient data flow between frontend and backend systems, resulting in a 30% improvement in response time.</li>
+                            <li>Worked on <b>UI/UX enhancements</b> to improve user interaction and navigation, aligning with banking standards and compliance requirements.</li>
+                            <li>Contributed to team efforts in <b>Agile methodology</b>, participating in daily scrums, sprint planning, and code reviews to ensure continuous delivery.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- HCL Technologies -->
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="temenos_logo.png" alt="HCL Logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Temenos India Pvt. Ltd, Chennai, India</h3>
+                        <p class="experience-subtitle">Product Engineer</p>
+                        <p class="experience-duration">Sep 2021 - Mar 2023</p>
+                        <ul class="experience-description">
+                            <li>Provided <b>technical support</b> and troubleshooting for banking software applications, ensuring high availability and minimal downtime for enterprise clients.</li>
+                            <li>Assisted in <b>root cause analysis</b> and fixed production bugs related to <b>database queries</b> and application logic.</li>
+                            <li>Collaborated with cross-functional teams to escalate and resolve client-reported issues, enhancing customer satisfaction.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- UTD Codexe Club -->
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="utd_logo.png" alt="UTD Logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Codexe Club, University of Texas at Dallas, TX</h3>
+                        <p class="experience-subtitle">Web Designer Officer</p>
+                        <p class="experience-duration">Jan 2024 - Present</p>
+                        <ul class="experience-description">
+                            <li>Designing and maintaining the <b>club’s official website</b> using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> to ensure an engaging online presence.</li>
+                            <li>Collaborated with the technical team to implement <b>interactive features</b> and enhance user navigation across the site.</li>
+                            <li>Managed <b>updates and content uploads</b> for events, workshops, and announcements to keep members informed.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Power BI Integration Project -->
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="powerbi_logo.png" alt="Power BI Logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">MySQL & Power BI Integration Project</h3>
+                        <p class="experience-subtitle">Project (Independent Study)</p>
+                        <p class="experience-duration">Mar 2025 - Present</p>
+                        <ul class="experience-description">
+                            <li>Integrated <b>MySQL database</b> with <b>Power BI</b> for real-time data visualization, enabling dynamic dashboards for mental health data analytics.</li>
+                            <li>Developed <b>Python scripts</b> to automate data retrieval and refresh Power BI datasets, eliminating manual data exports.</li>
+                            <li>Embedded interactive <b>Power BI dashboards</b> into the web frontend for live insights and reporting.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    
+        <section class="services" id="services">
+            <h2 class="heading">Top <span>Skills</span></h2>
+        
+            <div class="services-container">
+                <!-- Full Stack Development -->
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Full Stack Development</h3>
+                    <p>Expert in <b>building responsive web applications</b> using <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>React</b>, and <b>Angular</b>. Proficient in <b>backend development</b> with <b>Python</b>, <b>Flask</b>, and <b>Node.js</b>, ensuring seamless integration and performance.</p>
+                </div>
+        
+                <!-- Frontend Development -->
+                <div class="services-box">
+                    <i class='bx bxs-paint'></i>
+                    <h3>Frontend Development</h3>
+                    <p>Skilled in designing <b>interactive user interfaces</b> with <b>HTML5</b>, <b>CSS3</b>, and <b>JavaScript frameworks</b>. Experience with <b>React</b> and <b>Angular</b> to create <b>dynamic and responsive designs</b> that enhance user experience.</p>
+                    
+                </div>
+        
+                <!-- Backend Development -->
+                <div class="services-box">
+                    <i class='bx bx-server'></i>
+                    <h3>Backend Development</h3>
+                    <p>Experienced in developing <b>robust server-side applications</b> using <b>Python (Flask/Django)</b>, <b>Node.js</b>, and <b>Java</b>. Proficient in creating <b>RESTful APIs</b> and integrating with <b>databases</b> for efficient data handling.</p>
+                    
+                </div>
+        
+                <!-- Cloud and Deployment -->
+                <div class="services-box">
+                    <i class='bx bx-cloud-upload'></i>
+                    <h3>Cloud & Deployment</h3>
+                    <p>Hands-on experience with <b>cloud platforms</b> like <b>AWS</b> and <b>Oracle Cloud</b>. Skilled in <b>CI/CD pipelines</b>, <b>Docker</b>, and <b>GitHub Actions</b> for deploying <b>scalable applications</b> and automating workflows.</p>
+                    
+                </div>
+        
+                <!-- SQL and Databases -->
+                <div class="services-box">
+                    <i class='bx bxs-data'></i>
+                    <h3>SQL & Databases</h3>
+                    <p>Proficient in designing <b>optimized schemas</b>, writing complex <b>SQL queries</b>, and building <b>ETL pipelines</b>. Experienced with <b>MySQL</b>, <b>MongoDB</b>, and <b>Oracle</b> for reliable data storage and management.</p>
+                    
+                </div>
+        
+                <!-- API Integration -->
+                <div class="services-box">
+                    <i class='bx bx-link'></i>
+                    <h3>API Integration</h3>
+                    <p>Experienced in integrating <b>third-party APIs</b> and developing <b>RESTful services</b> for seamless data exchange. Proficient in <b>JSON</b>, <b>Postman</b>, and <b>Swagger</b> for testing and documentation.</p>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="ecommerce_logo.jpeg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>E-Commerce Web Application</h4>
+                        <p>Developed a full-stack <b>e-commerce platform</b> with <b>React</b>, <b>Node.js</b>, and <b>MongoDB</b>. Features include user authentication, product management, shopping cart, and order processing.</p>
+                        <a href="https://github.com/amruthapemmasani/ecommerce-platform"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+        
+                <div class="portfolio-box">
+                    <img src="mental_health_logo.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Mental Health Data Dashboard</h4>
+                        <p>Created an interactive <b>dashboard</b> for visualizing mental health data, integrating <b>MySQL</b> with <b>Power BI</b> and embedding insights into a web frontend.</p>
+                        <a href="https://github.com/amruthapemmasani/mental-health-dashboard"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+        
+                <div class="portfolio-box">
+                    <img src="portfolio.jpeg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Portfolio Website</h4>
+                        <p>Designed and developed my personal <b>portfolio website</b> using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> to showcase projects and skills, with interactive UI and smooth animations.</p>
+                        <a href="https://github.com/amruthapemmasani/portfolio-website"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" id="testimonials">
+            <h2 class="heading">ENDORSEMENTS</h2>
+            <p class="testimonials-intro">
+                In my journey, I'm grateful to have received endorsements and recognition from colleagues, mentors, 
+                and industry professionals. These endorsements serve as a testament to my skills, dedication, and 
+                contributions in the fields of Technology.
+            </p>
+            <div class="testimonial-card">
+                <h3>Aravindkumar </h3>
+                <p class="testimonial-subtitle">Software Engineer at Temenos</p>
+                <p class="testimonial-quote">
+                    <span class="quote-symbol">❝</span>  
+                    I had the pleasure of working with Amrutha on our Temenos team, and I wholeheartedly recommend her skills and contributions.
+                    Amrutha consistently delivered exceptional results during her time on the team. She displayed a deep understanding of concepts and completed all tasks on time, contributing significantly to our project's success. Her dedication to meeting project milestones and their ability to work effectively within the confines of each sprint were truly impressive.
+                    In addition to her development work, Amrutha also took the initiative to perform low-level testing, ensuring the quality and reliability of our application. This proactive approach not only saved us time but also improved the overall performance. Furthermore, while Amrutha's primary focus was Java, he demonstrated proficiency in SQL when required, showcasing his versatility and adaptability.
+                    She is a reliable and committed team member who brings not only technical expertise but also a positive attitude to the workplace. She collaborates well with their colleagues, shares their knowledge, and is always eager to learn and grow in her role. I believe that she would be a valuable asset to any organization,and I am confident that they will continue to excel in her career.
+                    <span class="quote-symbol">❞</span>
+                </p>
+            </div>
+        </section>
+        
+        
+        <section class="Contact" id="Contact">
+            <h2 class="heading">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location:</h3>
+                            <p>800W Renner Road, Richardson, Texas - 75080</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email:</h3>
+                            <p>amrutha.pemmasani@utdallas.edu</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Call:</h3>
+                            <p>+1 (945) 308-1450</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quote-section">
+                <h3>Amrutha Pemmasani</h3>
+                <p><em>"Every number has a story, and I love bringing it to life with insightful conversations. Whether it’s analyzing trends or meeting someone new, I believe the best ideas come when curiosity meets connection—and a bit of humor along the way!"</em></p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/amrutha-pemmasani/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Amruthasgit" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:amrutha.pemmasani@utdallas.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+        
+<style>
+  #msg {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+</style>
+
+         <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Amrutha | All Rights Reserved.</p>
+            <p>Visitors: <span id="visitor-count" style="color: #4169E1;">162</span></p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+        <script>
+        function cb(response) {
+            document.getElementById('visitor-count').innerText = response.value;
+        }
+    </script>
+        
+        
+    </body>
+</html>
